@@ -28,4 +28,9 @@ The variables are checked for unique values and any noisy variables are bucketed
 
 ### Building, Training, and Optimizing the Model
 
+Using the processed data, the model is built in [AlphabetSoupCharity.ipynb](https://github.com/caseylee94/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) using `tensorflow.keras.models.Sequential` and `tensorflow.keras.layers.Dense` with the following parameters:
 
+| Parameter | Value | Explanation |
+| --------- | ----- | ------------- |
+| Hidden Layers | 2 | Key component that enables neural network to learn complex tasks; 2 layers are a good starting point with low computation time |
+| Number of Nodes in Layers | 80, 30 | First layer has two times the input number (43), second has smaller number for shorter computation time | 
