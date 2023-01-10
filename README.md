@@ -32,5 +32,10 @@ Using the processed data, the model is built in [AlphabetSoupCharity.ipynb](http
 
 | Parameter | Value | Explanation |
 | --------- | ----- | ------------- |
-| Hidden Layers | 2 | Key component that enables neural network to learn complex tasks; 2 layers are a good starting point with low computation time |
-| Number of Nodes in Layers | 80, 30 | First layer has two times the input number (43), second has smaller number for shorter computation time | 
+| Hidden Layers | 2 | Key component that enables neural network to learn complex tasks; 2 layers are a good starting point considering the data has low complexity and offers a relatively short computation time |
+| Number of Nodes in Layers | 80, 30 | First layer has two times the input number (43), second layer has smaller number for shorter computation time | 
+| Hidden Layer Activation Function | ReLu | Standard function that generally produces good results with a short computation time; it is simple to implement and effective, is a good starting point for this model |
+| Number of Output Layers | 1 | Binary classification model only needs one output layer |
+| Output Layer Activation Function | Sigmoid | Function used to predict probability in binary classification outputs |
+
+
