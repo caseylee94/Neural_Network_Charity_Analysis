@@ -7,13 +7,13 @@ This project is aimed to help a pseudocompany, Alphabet Soup, that donates money
 ## Resources
 * Dataset: [charity_data.csv](https://github.com/caseylee94/Neural_Network_Charity_Analysis/tree/main/Resources)
 * Software:
-    ** Python 3.7.6
-    ** scikit-learn 0.22.1
-    ** pandas 1.0.1
-    ** TensorFlow 2.4.1
-    ** NumPy 1.19.5
-    ** Matplotlib 3.1.3
-    ** Jupyter Notebook 1.0.0
+** Python 3.7.6
+** scikit-learn 0.22.1
+** pandas 1.0.1
+** TensorFlow 2.4.1
+** NumPy 1.19.5
+** Matplotlib 3.1.3
+** Jupyter Notebook 1.0.0
 
 ## Analysis
 
