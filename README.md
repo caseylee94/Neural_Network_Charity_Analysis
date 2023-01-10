@@ -17,3 +17,15 @@ This project is aimed to help a pseudocompany, Alphabet Soup, that donates money
 
 ## Analysis
 
+### Data Preprocessing
+
+The first step in this project was to read in the csv file as a dataframe, using `Pandas`. Any unnecessary columns were then dropped, in this case the "EIN" and "NAME" column are dropped because these are for identification of the different companies and do not contribute impactful information for a neural network model. Then, the target and feature variables are determined as follows:
+
+* Target variable: `IS_SUCCESSFUL`
+* Feature variables: `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT`
+
+The variables are checked for unique values and any noisy variables are bucketed, in this first analysis this was `CLASSIFICATION` and `APPLICATION_TYPE`, each with 15+ unique values bucketed down to 8 or less values. Then, any categorical data within the variables are encoded using `sklearn.preprocessing.OneHotEncoder`.  The data are split into training and testing sets and then scaled using `sklearn.preprocessing.StandardScaler` to optimize the model; this ensures data are within a certain range that helps the model compare the data, as well as run faster and more efficiently.
+
+### Building, Training, and Optimizing the Model
+
+
