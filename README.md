@@ -54,3 +54,5 @@ Using this model, the accuracy score was found to be 73.47%. This is below our t
 ### Summary
 
 Using the inital model and optimization techniques, the model was not able to meet the target accuracy of 75%. Moving forward, changing the model type is a good next step to try to achieve this accuracy. A `Random Forest` machine learning model works well for classification problems and is comparable to a deep neural network model with two hidden layers. It is a supervised machine learning model that is relatively easy to build and utilize; it does not require as many features and inputs as the neural network model so it could be tried without much time commitment.
+
+Alternatively, given more time, more optimization methods can be attempted on this model. Raising the number of epochs resulted in a higher accuracy so this could be attempted again with a higher amount, potentially 300 epochs. Increasing the number of hidden layers also resulted in a higher accuracy score; this optimization could be attempted in congruence with raising the number of epochs. Again, this model will take more to run and could be attempted given more future resources.
