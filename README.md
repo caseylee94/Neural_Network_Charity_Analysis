@@ -38,4 +38,21 @@ Using the processed data, the model is built in [AlphabetSoupCharity.ipynb](http
 | Number of Output Layers | 1 | Binary classification model only needs one output layer |
 | Output Layer Activation Function | Sigmoid | Function used to predict probability in binary classification outputs |
 
+Using this model, the accuracy score was found to be 73.47%. This is below our target accuracy score of 75%, so optimization of the model was attempted next to try to raise this score by changing one feature at a time while holding the other features fixed. These models are built in [AlphabetSoupCharity_Optimization.ipynb](https://github.com/caseylee94/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb)
+
+* First Optimization Attempt: Changed Number of Epochs from 100 to 200
+** Accuracy = 73.70%
+
+* Second Optimization Attempt: Sigmoid Activation Function in the Hidden Layer Instead of ReLU
+** Accuracy = 73.33%
+
+* Third Optimization Attempt: Increasing the Number of Hidden Layers
+** Accuracy = 73.59%
+
+* Fourth Optimization Attempt: Adjusting Input Data by Dropping or Binning Noisy Variables
+** Accuracy = 72.66%
+
+### Summary
+
+Using this model and optimization techniques, the model was not able to meet the target accuracy of 75%. Moving forward,
 
