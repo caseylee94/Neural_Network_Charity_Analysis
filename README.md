@@ -37,7 +37,7 @@ Using the processed data, the model is built in [AlphabetSoupCharity.ipynb](http
 | Hidden Layer Activation Function | ReLu | Standard function that generally produces good results with a short computation time; it is simple to implement and effective, is a good starting point for this model |
 | Number of Output Layers | 1 | Binary classification model only needs one output layer |
 | Output Layer Activation Function | Sigmoid | Function used to predict probability in binary classification outputs |
-| -------------------------------- | ------- | --------------------------------------------------------------------- |
+
 *Figure 1: Table showing parameters for initial neural network model*
 
 Using this model, the accuracy score was found to be 73.47%. This is below our target accuracy score of 75%, so optimization of the model was attempted next to try to raise this score by changing one feature at a time while holding the other features fixed. These models are built in [AlphabetSoupCharity_Optimization.ipynb](https://github.com/caseylee94/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb)
@@ -48,7 +48,7 @@ Using this model, the accuracy score was found to be 73.47%. This is below our t
 | Sigmoid Activation Function in the Hidden Layer Instead of ReLU | 73.33% |
 |Increasing the Number of Hidden Layers | 73.59% |
 | Adjusting Input Data by Dropping or Binning Noisy Variables | 72.66% |
-| ----------------------------------------------------------- | ------ |
+
 *Figure 2: Table showing accuracy of each optimization attempt*
 
 ### Summary
