@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-This project is aimed to help a pseudocompany, Alphabet Soup, that donates money to businesses for charity work, determine which businesses are worth donating to and which are too high risk. Sometimes these companies take the money and do impactful charity work as promised, and sometimes they take the money and disappear. To predict which choice a new company is likely to make, deep neural network modeling will be utilized to build a binary classification model. The model takes in nine features from a loan application data set about past companies that have accepted money from Alphabet Soup. A `Tensorflow Keras Sequential model` with `dense hidden layers` will be employed and optimized with a goal of achieving greater than 75% accuracy of predictions.
+This project is aimed to help a pseudocompany, Alphabet Soup, that donates money to businesses for charity work, determine which businesses are worth donating to and which are too high risk. Sometimes these companies take the money and do impactful charity work as promised, and sometimes they take the money and disappear. To predict which choice a new company is likely to make, deep neural network modeling will be utilized to build a binary classification model. The model takes in nine features from a loan application data set about past companies that have accepted money from Alphabet Soup. A `Tensorflow Keras Sequential model` with `dense hidden layers` will be employed and optimized with to increase the accuracy of predictions.
 
 ## Resources
 * Dataset: [charity_data.csv](https://github.com/caseylee94/Neural_Network_Charity_Analysis/tree/main/Resources)
@@ -40,7 +40,7 @@ Using the processed data, the model is built in [AlphabetSoupCharity.ipynb](http
 
 *Figure 1: Table showing parameters for initial neural network model*
 
-Using this model, the accuracy score was found to be 73.47%. This is below our target accuracy score of 75%, so optimization of the model was attempted next to try to raise this score by changing one feature at a time while holding the other features fixed. These models are built in [AlphabetSoupCharity_Optimization.ipynb](https://github.com/caseylee94/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb)
+Using this model, the accuracy score was found to be 73.47%. This accuracy can most likely be improved, so optimization of the model was attempted next to try to raise this score by changing one feature at a time while holding the other features fixed. These models are built in [AlphabetSoupCharity_Optimization.ipynb](https://github.com/caseylee94/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb)
 
 | Optimization Method | Accuracy |
 | ------------------- | -------- |
@@ -53,6 +53,6 @@ Using this model, the accuracy score was found to be 73.47%. This is below our t
 
 ### Summary
 
-Using the inital model and optimization techniques, the model was not able to meet the target accuracy of 75%. Moving forward, changing the model type is a good next step to try to achieve this accuracy. A `Random Forest` machine learning model works well for classification problems and is comparable to a deep neural network model with two hidden layers. It is a supervised machine learning model that is relatively easy to build and utilize; it does not require as many features and inputs as the neural network model so it could be tried without much time commitment.
+Using the inital model and optimization techniques, the model was marginally increased from the initial accuracy of 73.47% to the highest accuracy achieved of 73.70%. Moving forward, changing the model type is a good next step to try to achieve this accuracy. A `Random Forest` machine learning model works well for classification problems and is comparable to a deep neural network model with two hidden layers. It is a supervised machine learning model that is relatively easy to build and utilize; it does not require as many features and inputs as the neural network model so it could be tried without much time commitment.
 
 Alternatively, given more time, more optimization methods can be attempted on this model. Raising the number of epochs resulted in a higher accuracy so this could be attempted again with a higher amount, potentially 300 epochs. Increasing the number of hidden layers also resulted in a higher accuracy score; this optimization could be attempted in congruence with raising the number of epochs. Again, this model will take more to run and could be attempted given more future resources.
