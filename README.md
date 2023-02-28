@@ -1,5 +1,6 @@
 # Neural_Network_Charity_Analysis
 
+
 ## Overview of Project
 
 This project is aimed to help a pseudocompany, Alphabet Soup, that donates money to businesses for charity work, determine which businesses are worth donating to and which are too high risk. Sometimes these companies take the money and do impactful charity work as promised, and sometimes they take the money and disappear. To predict which choice a new company is likely to make, deep neural network modeling will be utilized to build a binary classification model. The model takes in nine features from a loan application data set about past companies that have accepted money from Alphabet Soup. A `Tensorflow Keras Sequential model` with `dense hidden layers` will be employed and optimized with to increase the accuracy of predictions.
